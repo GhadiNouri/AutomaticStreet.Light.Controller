@@ -5,24 +5,13 @@ Simple hardware projects explaing the street-light system that work as a switch 
 
 How it Works:
 The work depened on the light sensor;
-- When the sun rises:
-  1- LED Sensor detuct the light of the sun
-  2- LED turns OFF automaticlly.
-- When the sun sets: 
-  1- LED Sensor detuct the darkness.
-  2- LED turns ON automaticlly.
+- When the sun rises: LED Sensor detuct the light of the sun -> LED turns OFF automaticlly.
+- When the sun sets: LED Sensor detuct the darkness -> LED turns ON automaticlly.
   
-Hardware Components:
-1- LED Sensor(LDR)
-2- Battery -9v- & battery connector
-3- Resistor -1k-
-3- Transistor -2N222 NPN-
-4- LED (WHIT) *Can be changed*
-5- Wires
+Hardware Components: LED Sensor(LDR), Battery -9v-, Battery connector, Resistor -1k-, Transistor -2N222 NPN-, LED (WHIT), Wires
 
 Build Method:
-The project has been connected using the slodering, not a breadboar.
-The connection were created manually to simulate a real-world hardware implementation.
+The project has been connected using the slodering, not a breadboar. The connection were created manually to simulate a real-world hardware implementation.
 
 Features:
 1-Fully automated ON/OFF control.
