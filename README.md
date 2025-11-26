@@ -1,25 +1,45 @@
-# Automatic Street Light Controller
+**# Automatic Street Light Controller
 
-Overview:
-Simple hardware projects explaing the street-light system that work as a switch ON/OFF automatically. Built using electronics components only -No programming/microcontroller- and depened only on a light sensor to control the LEDs.
+## Video Demonstration  
+Short demo of the project:  
+https://bit.ly/AutomaticStreetLightController
 
-How it Works:
-The work depened on the light sensor;
-- When the sun rises: LED Sensor detuct the light of the sun -> LED turns OFF automaticlly.
-- When the sun sets: LED Sensor detuct the darkness -> LED turns ON automaticlly.
-  
-Hardware Components: LED Sensor(LDR), Battery -9v-, Battery connector, Resistor -1k-, Transistor -2N222 NPN-, LED (WHIT), Wires
+## Overview
+A simple hardware project demonstrating an automatic street-light system that turns ON in darkness and OFF in daylight.  
+The entire system is built using electronic components only —no programming, no microcontroller— and relies entirely on a light sensor (LDR) to control the LED lights.
 
-Build Method:
-The project has been connected using the slodering, not a breadboar. The connection were created manually to simulate a real-world hardware implementation.
+## How It Works
+The behavior depends on the amount of light detected by the LDR sensor:
+- **When the sun rises (bright environment):**  
+  The LDR detects light → LEDs turn OFF automatically.
+- **When the sun sets (dark environment):**  
+  The LDR detects darkness → LEDs turn ON automatically.
+A transistor (2N2222 NPN) acts as a switch to control the LED based on the signal coming from the LDR.
 
-Features:
-1-Fully automated ON/OFF control.
-2-No programming required.
-3-Simple, reliable electronics design.
-4-Real hardware implementation.
+## Hardware Components
+- LDR (Light Dependent Resistor)
+- 9V Battery
+- Battery Connector
+- Resistors (1kΩ)
+- Transistor (2N2222 NPN)
+- White LED
+- Wires (soldered connections)
 
-Future Improvements:
-1- Replace the LED with high-power light module.
-2- Add Solar charging system.
-3- Add motion detection for energy saving.
+## Build Method
+The project was assembled using soldering, not a breadboard.  
+All connections were created manually to simulate a real-world hardware build and ensure stability.
+
+## Circuit Diagram
+Below is the main circuit schematic used in this project:
+![Circuit Diagram](Circuit%20Design.png)
+
+## Features
+1. Fully automated ON/OFF control  
+2. No programming or microcontroller  
+3. Simple and reliable electronics design  
+4. Real hardware implementation  
+
+## Future Improvements
+1. Replace LED with a high-power lighting module  
+2. Add a solar charging system  
+3. Add motion detection for better energy saving  
