@@ -2,7 +2,7 @@
 
 ## Video Demonstration  
 Short demo of the project:  
-https://bit.ly/AutomaticStreetLightController
+https://drive.google.com/file/d/1RfV9FzQOMCrOCL--NggIKNYRAGDHyzAk/view?usp=sharing
 
 ## Overview
 A simple hardware project demonstrating an automatic street-light system that turns ON in darkness and OFF in daylight.  
