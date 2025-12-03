@@ -1,9 +1,5 @@
 **# Automatic Street Light Controller
 
-## Video Demonstration  
-Short demo of the project:  
-https://drive.google.com/file/d/1RfV9FzQOMCrOCL--NggIKNYRAGDHyzAk/view?usp=sharing
-
 ## Overview
 A simple hardware project demonstrating an automatic street-light system that turns ON in darkness and OFF in daylight.  
 The entire system is built using electronic components only —no programming, no microcontroller— and relies entirely on a light sensor (LDR) to control the LED lights.
@@ -32,6 +28,11 @@ All connections were created manually to simulate a real-world hardware build an
 ## Circuit Diagram
 Below is the main circuit schematic used in this project:
 ![Circuit Diagram](Circuit%20Design.png)
+
+
+## Video Demonstration  
+Short demo of the project:  
+https://drive.google.com/file/d/1RfV9FzQOMCrOCL--NggIKNYRAGDHyzAk/view?usp=sharing
 
 ## Features
 1. Fully automated ON/OFF control  
