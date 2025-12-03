@@ -1,4 +1,4 @@
-**# Automatic Street Light Controller
+# **Automatic Street Light Controller
 
 ## Overview
 A simple hardware project demonstrating an automatic street-light system that turns ON in darkness and OFF in daylight.  
